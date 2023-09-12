@@ -1,0 +1,125 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: pink;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+   
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+/* Add the following styles */
+.centered-section {
+    text-align: center; /* Center-align the content */
+    padding: 50px 0; /* Add top and bottom padding for spacing */
+    background-color: black ;
+    color:white;
+  
+}
+.centered-section.image{
+    max-width: 100%; /* Set a maximum width for the image to ensure it doesn't overflow */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any potential spacing issues */
+    margin: 0 auto; /* Center-align the image horizontally */
+    border-radius: 50%; /* Add border-radius to make it a circle */
+    border: 3px solid #fff; /* Add a white border for a clean look (adjust border width/color as needed) */
+    width: 200px;
+}
+.project{
+   
+    max-width: 100%; /* Set a maximum width for the image to ensure it doesn't overflow */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any potential spacing issues */
+    margin: 0 auto; /* Center-align the image horizontally */
+    border-radius: 50%; /* Add border-radius to make it a circle */
+    border: 3px solid #fff; /* Add a white border for a clean look (adjust border width/color as needed) */
+    width: 200px;
+    
+   
+}
+
+.image img {
+    max-width: 5500%; /* Set a maximum width for the images */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any potential spacing issues */
+    margin: 0 auto; /* Center-align the images horizontally */
+    width: 1000px;
+
+}
+.project-1 {
+    max-width: 10%;
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+    width: 10px;
+    
+}
+
+.logo{
+    
+        display: flex;
+        align-items: center;
+        
+}
+    
+.logo img {
+        width: 100px; 
+        height: 100px;
+   position: absolute;
+        margin-right: 5px; 
+    }  
+   
+
+    
+    .image  {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    position: right;
+
+
+}
+ 
+
+    
+     /* Center-align the images horizontally */
+
+
